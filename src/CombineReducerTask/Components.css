@@ -1,0 +1,27 @@
+#outer {
+    height: auto;
+    margin: 40px auto;
+    text-align: center;
+    width: 40%;
+    padding: 14px;
+    background: #ebebeb;
+}
+.msg{
+color: red;
+}
+input{
+    height: 30px;
+    width: 50%;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+}
+button{
+    height: 38px;
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    border-radius: 10px;
+}
