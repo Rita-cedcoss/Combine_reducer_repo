@@ -10,6 +10,7 @@ const initialState={
     result4:0,
     clearRes:0
 }
+//for addition
 export const addReducer=(state=initialState,action)=>{
     switch(action.type)
     {
@@ -26,6 +27,7 @@ export const addReducer=(state=initialState,action)=>{
         default:return {...state}
     }
 }
+//for substraction
 export const subtractReducer=(state=initialState,action)=>{
     switch(action.type)
     {
@@ -42,6 +44,7 @@ export const subtractReducer=(state=initialState,action)=>{
         default:return {...state}
     }
 }
+//for multiplication
 export const multiplytractReducer=(state=initialState,action)=>{
     switch(action.type)
     {
@@ -58,6 +61,7 @@ export const multiplytractReducer=(state=initialState,action)=>{
         default:return {...state}
     }
 }
+//for division
 export const divisionReducer=(state=initialState,action)=>{
     switch(action.type)
     {
@@ -74,20 +78,3 @@ export const divisionReducer=(state=initialState,action)=>{
         default:return {...state}
     }
 }
-// export const clearresultReducer=(state=initialState,action)=>{
-//     switch(action.type)
-//     {
-//         case Clear_Result:
-//             console.log(action.stateVal);
-//             return{
-//                 ...state,
-//                result1:0,
-                
-//                 // result:0
-//             }
-//         default:
-//             return {
-//                 ...state
-//             }
-//     }
-// }
