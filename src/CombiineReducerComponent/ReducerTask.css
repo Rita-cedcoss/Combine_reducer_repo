@@ -1,0 +1,32 @@
+#multipleReducerOuter{
+    height:auto;
+    width:35%;
+    margin:20px auto;
+    text-align: center;
+    padding: 2%;
+    border: 1px solid #9f9a9a;
+}
+#multipleReducerOuter>input{
+    height: 32px;
+    width: 60%;
+    margin: 2%;
+}
+button{
+    height: 34px;
+    width: 20%;
+    margin: 4% 8%;
+    color:white;
+    border: none;
+    font-size: 14px;
+    background-color: rgb(46, 46, 83);
+}
+#resultData>p{
+    text-align: left;
+    margin-left: 20%;
+}
+.block{
+ display:block ;
+}
+.none{
+    display: none;
+}
